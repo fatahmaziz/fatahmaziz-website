@@ -103,6 +103,7 @@ hr{
 
 .primary-button, .secondary-button{
     background-color: var(--background-color);
+    color: var(--offblack-color);
     padding: 1rem 2rem;
     min-height: 6rem;
     max-height: 6rem;
