@@ -153,6 +153,7 @@ nav{
     max-width: 80vw;
     margin: auto;
     flex-wrap: wrap;
+    border-bottom: 0.1rem solid var(--offblack-color);
 }
 
 nav h1{
@@ -342,6 +343,8 @@ main section h3{
 /* Footer Section */
 footer{
     min-height: 10vh;
+    max-width: 80vw;
+    margin: auto;
     text-align: center;
     padding: 1rem 0rem;
     display: flex;
@@ -434,6 +437,11 @@ footer small{
     nav{
         justify-content: center;
         flex-direction: column;
+        max-width: 90vw;
+    }
+
+    nav h1{
+        padding-top: 2rem;
     }
 
     nav ul{
@@ -460,5 +468,7 @@ footer small{
     }
 
     /* footer section */
-    
+    footer{
+        max-width: 90vw;
+    }
 }
