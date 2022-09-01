@@ -277,7 +277,7 @@ main section h3{
 .section-content{
     padding: 1.5rem;
     margin-bottom: 3rem;
-    max-width: 40vw;
+    max-width: 60vw;
     border-radius: 1rem;
     box-shadow: 0.1rem 0.1rem 3rem rgba(97, 80, 81, 0.1);
 }
@@ -431,6 +431,7 @@ footer small{
     /* nav section */
     nav{
         justify-content: center;
+        flex-direction: column;
     }
 
     nav ul{
