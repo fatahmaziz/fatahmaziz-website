@@ -198,6 +198,10 @@ main{
     margin-bottom: 2rem;
 }
 
+.introduction{
+    max-width: 60vw;
+}
+
 .projects, .blogs{
     margin-bottom: 1rem;
 }
