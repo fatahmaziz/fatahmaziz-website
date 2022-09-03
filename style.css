@@ -252,6 +252,11 @@ main section h3{
 .technology-icon{
     max-height: 5rem;
     margin: 1rem;
+    transition: all ease-in-out 0.25s;
+}
+
+.technology-icon:hover{
+    transform: translateY(-0.5rem);
 }
 
 /* Project Section */
