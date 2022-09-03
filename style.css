@@ -436,6 +436,7 @@ footer small{
 
     /* nav section */
     nav{
+        max-width: 90vw;
         justify-content: center;
         flex-direction: column;
     }
