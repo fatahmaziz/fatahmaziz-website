@@ -261,8 +261,7 @@ main section h3{
 
 /* Project Section */
 .projects h2, .blogs h2{
-    text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .white-section{
@@ -341,6 +340,14 @@ main section h3{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+}
+
+.white-section a:hover{
+    text-decoration: none;
+}
+
+.section-buttons a:hover{
+    text-decoration: none;
 }
 
 .section-buttons button{
