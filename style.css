@@ -273,6 +273,10 @@ main section h3{
     align-content: center;
 }
 
+.heading-highlight-link{
+    color: var(--primary-color);
+}
+
 .heading-highlight-link a{
     color: var(--primary-color);
     transition: all ease-in-out 0.25s;
